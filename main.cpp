@@ -21,7 +21,7 @@ std::vector<Sphere> spheres = {//Scene: radius, position, emission, color, mater
 
 int main(int argc, char *argv[])
 {
-	/*If image is noisy, increase samples. Samples will increase render time*/
+	/*If image is noisy, increase samples. More samples will increase render time*/
 	int w = 600, h = 300, samps = 4;
 	std::string img = "myRender.bmp";
 	
